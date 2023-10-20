@@ -1,0 +1,19 @@
+@import "src/app/styles/mixins"
+
+.form
+  display: flex
+  flex-direction: column
+  align-items: center
+  row-gap: 16px
+
+.label
+  border-radius: 8px
+  background: #212123
+  width: 100%
+.input
+  @include text(400,14px,normal,#F6F6F7)
+  padding: 12px 24px
+  width: 100%
+  border: none
+  outline: none
+  background: transparent

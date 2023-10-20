@@ -1,0 +1,27 @@
+@import "src/app/styles/mixins"
+
+.wrapper
+  padding: 20px 35px 0 35px
+  width: 70%
+  border-radius: 6px
+  background: #191919
+  position: relative
+.h2
+  @include text(900,80px,normal,#212123)
+.right
+  position: absolute
+  top: 50%
+  transform: translateY(-30%)
+  right: 0
+  width: 450px
+  height: 330px
+
+.h3
+  @include text(500,16px,normal,#616E74)
+  margin-bottom: 8px
+
+.h4
+  @include text(700,42px,normal,#F6F6F7)
+  margin-bottom: 24px
+  width: 481px
+

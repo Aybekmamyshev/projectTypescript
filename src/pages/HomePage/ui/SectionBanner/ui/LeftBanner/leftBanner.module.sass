@@ -1,0 +1,32 @@
+@import "src/app/styles/mixins"
+
+.banner
+  position: relative
+  width: 50%
+  padding-top: 45px
+  border-radius: 6px
+  background: #191919
+.block
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+.h2
+  @include text(300,70px,normal,#6C3EB8)
+  margin-bottom: 5px
+
+.h3
+  @include text(300,150px,normal,#6C3EB8)
+  margin-bottom: 5px
+
+.phone
+  position: absolute
+  width: 250px
+  right: 0
+  bottom: -40px
+
+.shoes
+  position: absolute
+  width: 240px
+  left: -20px
+  bottom: 0

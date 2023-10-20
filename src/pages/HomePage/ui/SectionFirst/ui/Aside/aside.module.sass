@@ -1,0 +1,27 @@
+@import "src/app/styles/mixins"
+
+.aside
+  width: 30%
+  padding: 25px
+  background: #191919
+  height: 423px
+
+.h2
+  @include text(600,16px,normal,#FFF)
+  margin-bottom: 32px
+
+.list
+  display: flex
+  flex-direction: column
+  row-gap: 12px
+  margin-bottom: 116px
+
+.block
+  display: flex
+  justify-content: space-between
+
+.link
+  @include text(500,12px,normal,#576067)
+
+.active
+  @include text(500,12px,normal,#8B57C6)

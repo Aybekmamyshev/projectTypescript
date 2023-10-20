@@ -1,0 +1,39 @@
+
+@import "src/app/styles/mixins"
+
+.card
+  width: 230px
+  border-radius: 8px
+  background: #212123
+
+.content
+  padding: 12px 8px
+.h2
+  @include text(600,15px,normal,#fff)
+  margin-bottom: 5px
+
+.h3
+  @include text(500,12px,normal,#fff)
+  margin-bottom: 28px
+
+.last
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.left
+  display: flex
+  align-items: center
+  gap: 5px
+
+.new
+  @include text(700,20px,normal,#6C3EB8)
+
+.old
+  text-decoration: line-through
+  @include text(500,13px,normal,#576067)
+
+.text
+  @include text(500,10px,normal,#576067)
+
+

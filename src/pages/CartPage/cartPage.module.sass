@@ -1,0 +1,100 @@
+@import "src/app/styles/mixins"
+
+.content
+  border-radius: 6px
+  background: #191919
+  padding: 25px 35px
+
+.h2
+  @include text(600,20px,normal,#fff)
+  margin-bottom: 16px
+
+.wrapper
+  display: flex
+  flex-direction: column
+  row-gap: 18px
+  border-radius: 8px
+
+
+.row
+  background: #212123
+  padding: 12px 16px
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.left
+  display: flex
+  gap: 15px
+  align-items: center
+
+.h3
+  @include text(600,13px,normal,#fff)
+  margin-bottom: 3px
+  width: 130px
+.img
+  width: 98px
+  height: 47px
+.h4
+  @include text(500,10px,normal,#B8B8B8)
+
+.center
+  display: flex
+  gap: 100px
+
+.price
+
+  @include text(700,20px,normal,#fff)
+
+.box
+
+  display: flex
+  align-items: center
+  gap: 16px
+
+.btn
+  width: 25px
+  height: 25px
+  font-size: 18px
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 6px
+  background: #6C3EB8
+  color: #fff
+
+.count
+  text-align: center
+  width: 15px
+  height: 15px
+  @include text(500,14px,normal,#576067)
+
+.right
+  display: flex
+  align-items: center
+  gap: 44px
+
+.newPrice
+  width: 100px
+  @include text(700,22px,normal,#6C3EB8)
+
+.bottom
+  display: flex
+  justify-content: space-between
+  margin-top: 160px
+  align-items: center
+
+.total
+  display: flex
+  gap: 4px
+
+.h5
+  @include text(600,20px,normal,#B8B8B8)
+
+.svg
+  svg
+    &:hover
+      transition: 0.2s
+      fill: red
+
+

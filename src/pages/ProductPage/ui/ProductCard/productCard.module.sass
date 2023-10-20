@@ -1,0 +1,95 @@
+@import "src/app/styles/mixins"
+
+.wrapper
+
+  display: flex
+  justify-content: space-between
+
+.leftBlock
+  width: 50%
+  height: 295px
+  display: flex
+  gap: 10px
+
+.bigImg
+  width: 380px
+  background: #191919
+
+.vertical
+  display: flex
+  flex-direction: column
+  row-gap: 10px
+
+.img
+  width: 91px
+  height: 91px
+  background: #191919
+
+.rigth
+  width: 50%
+
+
+.h2
+  @include text(500,18px,normal,#F6F6F7)
+  margin-bottom: 10px
+
+.price
+  @include text(700,20px,normal,#F6F6F7)
+  margin-bottom: 20px
+
+.color
+  display: flex
+  gap: 10px
+  margin-bottom: 20px
+
+.h3
+  @include text(500,14px,normal,#576067)
+
+.h4
+  @include text(500,14px,normal,#F6F6F7)
+
+.h5
+  @include text(500,14px,normal,#576067)
+
+
+.sizes
+  display: flex
+  align-items: center
+  gap: 10px
+  margin-bottom: 20px
+
+.wrapp
+  display: flex
+  gap: 5px
+
+.num
+  @include text(500,14px,normal,#F6F6F7)
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 23px
+  height: 23px
+  border-radius: 8px
+  background: #6C3EB8
+
+.static
+  @include text(500,14px,normal,#F6F6F7)
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 23px
+  height: 23px
+  border-radius: 8px
+  background: #000
+
+
+
+
+.p
+  @include text(400,12px,normal,#B8B8B8)
+  width: 340px
+  margin-bottom: 20px
+
+.click
+  display: flex
+  gap: 20px

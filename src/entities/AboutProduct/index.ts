@@ -1,0 +1,1 @@
+export {useGetSingleQuery} from "./api/SingleApi"

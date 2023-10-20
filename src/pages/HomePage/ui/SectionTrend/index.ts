@@ -1,0 +1,1 @@
+export {SectionTrend} from "./SectionTrend"
